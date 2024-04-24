@@ -1,0 +1,5 @@
+var foodBill = 100;
+var tipPercentage = 0.15;
+var tipAmount = foodBill * tipPercentage;
+
+console.log(`The tip on a $${foodBill} is $${tipAmount}.`);
