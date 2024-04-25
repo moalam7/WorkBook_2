@@ -11,7 +11,6 @@ function payRules(payRate, hoursWorked) {
   } else {
     grossPay = (40 * payRate) + ((hoursWorked - 40) * (payRate * 1.5));
   }
-
   console.log(`Your gross pay is $${grossPay} for ${hoursWorked} hours worked with a pay rate of $${payRate} per hour.`);
 }
 
